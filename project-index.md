@@ -2,39 +2,32 @@
 
 > Status labels and update rules: [Governance policy](GOVERNANCE.md).
 
-## Independent repositories
+## Independent public repositories
 
-| Repository | Research role | Evidence status | Hub action |
+| Repository | Research role | Evidence status | Status |
 | --- | --- | --- | --- |
-| [reward-modeling-lab](https://github.com/Benjamindaoson/reward-modeling-lab) | Reward-model post-training and robustness | Public measured experiment | Link only; remain independent |
-| [RewardLens](https://github.com/Benjamindaoson/RewardLens) | Multimodal judge evaluation | Public research artifact | Link only; remain independent |
-| [chinese-news-classification](https://github.com/Benjamindaoson/chinese-news-classification) | Legacy Chinese NLP/model-compression case | Public legacy project | Review for consolidation or archival |
+| [reward-modeling-lab](https://github.com/Benjamindaoson/reward-modeling-lab) | 8B reward-model post-training and shortcut audit | Public measured experiment | **Flagship** |
+| [RewardLens](https://github.com/Benjamindaoson/RewardLens) | Controlled multimodal-judge evaluation | Frozen protocol and reproducible workspace | **Research** · research flagship |
+| [chinese-news-classification](https://github.com/Benjamindaoson/chinese-news-classification) | Chinese NLP fine-tuning and model-compression reproduction | Verified historical results; no longer a primary model-system line | **Case Study** · legacy |
 
-## Private research incubators
+## Private research directions
 
-Private repositories are recorded here by status only; unfinished claims are not promoted as results.
+Private work is listed without repository links.
 
-| Repository | Topic | Current disposition |
+| Research direction | Current disposition | Status |
 | --- | --- | --- |
-| `multimodal-chart-gspo` | Multimodal preference optimization | Keep private while active |
-| `trajectory-level-alignment` | Trajectory-level learning and evaluation | Keep private research |
-| `financial-reward-agentic-rl` | Financial reward / Agentic RL | Keep private incubator |
-| `text2sql-agentic-rl` | Text-to-SQL Agentic RL | Keep private incubator |
+| Multimodal chart preference optimization | Keep private while the dataset and controlled comparison mature | **Research** |
+| Trajectory-level alignment | Keep private until the task and baselines are stable | **Research** |
+| Financial reward modeling and Agentic RL | Private training/evaluation incubator | **Research** |
+| Text-to-SQL Agentic RL | Private evaluation and learning incubator | **Research** |
 
-## Migration candidates
+## Archived learning sources
 
-| Source repository | Proposed destination | Gate |
+| Source | Preservation record | Status |
 | --- | --- | --- |
-| `project-collection-handwrite-transformer` | `projects/transformer-from-scratch/` or private archive | Preserve original work; check copied reference code and licenses |
-| `project-collection-repeat-transformer` | Consolidate with transformer learning material | Confirm unique content |
-| `chinese-news-classification` | `projects/chinese-news-classification/` only if demoted from standalone repo | Preserve runnable baseline and measured results |
+| `project-collection-handwrite-transformer` | 6/6 blobs preserved; confirmed placeholder rather than Transformer implementation | **Archived** |
+| `project-collection-repeat-transformer` | 58/58 blobs preserved as private course material | **Archived** |
 
 ## Promotion criteria
 
-A project moves from incubator to a public independent repository only when it has:
-
-1. a frozen research question;
-2. a reproducible data and evaluation contract;
-3. measured results with uncertainty or repeated runs where appropriate;
-4. documented limitations;
-5. no unsupported performance claims.
+A private research line becomes a public repository only after the question, data contract, controls, uncertainty, limitations, license, and reproducibility path are ready. A legacy case study remains public only while its measured results and runnable path stay honest.
