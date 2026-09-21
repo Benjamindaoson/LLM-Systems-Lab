@@ -58,3 +58,8 @@ Every promoted experiment should state:
 ## Repository policy
 
 Flagship research stays in independent repositories. Small, bounded experiments may move into `projects/` after their data licenses, code provenance, and reproducibility are checked.
+
+
+## Governance
+
+This Hub follows the shared status taxonomy, link-only policy, private-research boundary, and release/archive synchronization checklist in [GOVERNANCE.md](GOVERNANCE.md).
