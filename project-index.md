@@ -1,5 +1,7 @@
 # LLM Systems Lab — Project Index
 
+> Status labels and update rules: [Governance policy](GOVERNANCE.md).
+
 ## Independent repositories
 
 | Repository | Research role | Evidence status | Hub action |
